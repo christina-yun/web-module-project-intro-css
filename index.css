@@ -1,53 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@200;700&display=swap');
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@100;500&display=swap');
 
 /*CY styling starts*/
 
@@ -61,11 +13,12 @@ html{
 
 body{
     text-align:center;
+    margin:0;
 
 
 }
 b{
-    font-weight:bold;
+    font-weight:700;
 }
 header {
     padding: 0 auto;
@@ -75,12 +28,13 @@ header {
 
 nav a{
     display:inline-block;
-    padding:0.75rem;
-    width:7rem;
+    padding:0.5rem 0.75rem;
+    width:8rem;
     margin: 0 4rem 4rem 4rem;
     text-decoration: none;
     color:white;
     border-radius: 1rem;
+    font-size: 1.2rem;
 }
 nav a.plan {
     background: #ff764e; 
@@ -96,12 +50,12 @@ nav a.involved {
 }
 header img{
     display: inline-block;
-    height: 14rem;
-    width:14rem;
+    height: 16rem;
+    width:16rem;
     border-radius:20rem;
 }
 .top{
-    padding-bottom: 4rem;
+    padding: 1rem;
     display:inline-block;
     font-size:1.2rem;
     width:50%;
@@ -115,31 +69,26 @@ header img{
 }
 
 h1{
-    font-size: 4.2rem;
+    font-size: 3rem;
     font-family: 'Chelsea Market', cursive;
-    margin: 1rem;
-    border:1px solid black;
+    margin: 2rem;
 }
 
 .intro{
-    width:85%;
-    padding:1rem;
+    width:90%;
+    padding:0.25rem 1rem;
     background: #DDB9A3;
     color:white;
     margin:auto;
-    font-size: 1rem;
-    
-
-
+    font-size: 1.2rem;
 }
 .park-tips{
     font-size:.75rem;
-    width:19%;
+    width:30%;
     padding:1rem;
     margin:0 auto;
-
-
 }
+
 .fire{
     padding:1rem;
 
@@ -148,7 +97,7 @@ h1{
     margin: 1rem;
 }
 .fire img{
-    height: 6rem;
+    height: 8rem;
     
 
 }
@@ -158,7 +107,7 @@ h1{
 
 }
 .reserve img{
-    height:6rem;
+    height:8rem;
     
 }
 .reserve p{
@@ -166,11 +115,14 @@ h1{
 }
 footer{
     background:#F9E7DC;
-    height:40rem;
 
 }
 footer img{
-    height: 30rem;
-    width: 100%;
-
+    object-position: 20% 10%; 
+    object-fit: cover;
+    width:100%;
+    height:150px;
+}
+footer nav{
+    padding:2rem;
 }
